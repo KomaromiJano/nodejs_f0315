@@ -1,0 +1,45 @@
+<!--
+File: index.html
+Author: Komáromi János
+Copyright: 2024, Komáromi János
+Group: Szoft I/1/N
+Date: 2024-03-07
+Github: https://github.com/komaromijano/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Húrnégyszög</title>
+</head>
+<body>
+
+    
+
+    <div class="container">
+
+        <div class="text-center h1 p-2 m-2">Húrnégyszög</div>
+        <div>
+            <label class="form-label">Húrnégyszög oldalai:</label>
+            <form id="form">
+                <input class="form-control" type="text" id="a_side" placeholder="A oldal"><br>
+                <input class="form-control" type="text" id="b_side" placeholder="B oldal"><br>
+                <input class="form-control" type="text" id="c_side" placeholder="C oldal"><br>
+                <input class="form-control" type="text" id="d_side" placeholder="D oldal"><br>
+                <input class="btn btn-success" type="submit" id="submit" value="Számolás"><br>
+            </form>
+        </div>
+        <div>
+            <p>
+                Területe: <a id="terulet"></a>
+            </p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
